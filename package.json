@@ -1,0 +1,30 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.2.2"
+  },
+  "scripts": {
+    "dev": "ts-node-dev --exit-child --transpile-only src/main.ts"
+  },
+  "dependencies": {
+    "@fastify/cookie": "^9.1.0",
+    "@fastify/jwt": "^7.2.1",
+    "@prisma/client": "^5.3.1",
+    "apollo-server-core": "^3.12.1",
+    "apollo-server-fastify": "^3.12.1",
+    "argon2": "^0.31.1",
+    "class-validator": "^0.14.0",
+    "fastify": "3",
+    "fastify-accepts": "^2.3.0",
+    "generate": "^0.14.0",
+    "graphql": "15.3.0",
+    "prisma": "^5.3.1",
+    "reflect-metadata": "^0.1.13",
+    "subscriptions-transport-ws": "^0.11.0",
+    "type-graphql": "^1.1.1"
+  }
+}
